@@ -1,0 +1,83 @@
+# Тестовый скрипт для проверки execute_script
+# Простые команды
+help
+info
+show
+
+# Команды с аргументами
+filter_contains_name lab
+filter_starts_with_name Test
+
+# Добавление элементов
+add
+Test LabWork 1
+150
+200
+300
+HARD
+John Doe
+1980-05-15
+180
+AB123456789
+10
+20
+30
+Lab Location
+
+add
+Another LabWork
+200
+250
+350
+IMPOSSIBLE
+Jane Smith
+1990-10-20
+170
+CD987654321
+15
+25
+35
+Another Location
+
+# Проверка добавленных элементов
+show
+
+# Команды модификации коллекции
+remove_by_id 1
+remove_lower
+Mini LabWork
+50
+100
+150
+NORMAL
+Mike Brown
+1975-03-10
+175
+EF456789123
+5
+10
+15
+Small Location
+
+# Проверка после удаления
+show
+
+# Группировка и статистика
+group_counting_by_creation_date
+average_of_minimal_point
+
+# Очистка коллекции
+clear
+
+# Проверка пустой коллекции
+info
+show
+
+# Попытка выполнить несуществующую команду
+unknown_command
+
+# Команда с неверным количеством аргументов
+remove_by_id
+
+# Выход из программы
+exit

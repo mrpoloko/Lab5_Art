@@ -1,0 +1,28 @@
+{
+  "collection": [
+    {
+      "id": 1,
+      "name": "2",
+      "coordinates": {
+        "x": 2.0,
+        "y": 2.0
+      },
+      "creationDate": "2025-05-13T10:43:05.8534461",
+      "minimalPoint": 2,
+      "difficulty": "EASY",
+      "author": {
+        "name": "erw",
+        "birthday": "2024-12-20T00:00:00",
+        "height": 213.0,
+        "passportID": "1234567891",
+        "location": {
+          "x": 23,
+          "y": 34.0,
+          "z": 234.0,
+          "name": "fds"
+        }
+      }
+    }
+  ],
+  "initializationDate": "May 13, 2025, 10:48:02 AM"
+}

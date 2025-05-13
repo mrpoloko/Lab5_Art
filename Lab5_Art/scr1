@@ -1,0 +1,250 @@
+# Полный тестовый скрипт для проверки всех функций
+ # 1. Проверка информационных команд
+ help
+ info
+ # 2. Добавление элементов
+ add
+ LabWork
+ 100
+ 150
+ 200
+ 200
+ HARD
+ John Doe
+ 1985-05-15
+ 185
+ PASS123456
+ 10
+ 20
+ 30
+ Main Campus
+ # 3. Проверка отображения
+ show
+ info
+ # 4. Проверка фильтрации
+ filter_contains_name Lab
+ filter_starts_with_name Basic
+ # 5. Проверка статистических команд
+ average_of_minimal_point
+ group_counting_by_creation_date
+ # 6. Проверка модификации коллекции
+ show
+ remove_by_id 1
+ remove_greater
+  LabWork
+  100
+  150
+  200
+  200
+  HARD
+  John Doe
+  1985-05-15
+  185
+  PASS123456
+  10
+  20
+  30
+  Main Campus
+ remove_lower
+  LabWork
+  100
+  150
+  200
+  200
+  HARD
+  John Doe
+  1985-05-15
+  185
+  PASS123456
+  10
+  20
+  30
+  Main Campus
+ # 7. Проверка специальных команд добавления
+ add_if_max
+  LabWork
+  100
+  150
+  200
+  200
+  HARD
+  John Doe
+  1985-05-15
+  185
+  PASS123456
+  10
+  20
+  30
+  Main Campus
+ add_if_min
+ LabWork
+   100
+   150
+   200
+   200
+   HARD
+   John Doe
+   1985-05-15
+   185
+   PASS123456
+   10
+   20
+   30
+   Main Campus
+ # 8. Проверка обновления
+ update 2
+ LabWork
+   100
+   150
+   200
+   200
+   HARD
+   John Doe
+   1985-05-15
+   185
+   PASS123456
+   10
+   20
+   30
+   Main Campus
+ # 9. Проверка очистки и сохранения
+ clear
+ info
+ show
+ # 10. Выход
+ add
+  LabWork
+  100
+  150
+  200
+  200
+  HARD
+  John Doe
+  1985-05-15
+  185
+  PASS123456
+  10
+  20
+  30
+  Main Campus
+  add
+   LabWork
+   100
+   150
+   200
+   200
+   HARD
+   John Doe
+   1985-05-15
+   185
+   PASS123456
+   10
+   20
+   30
+   Main Campus
+   add
+    LabWork
+    100
+    150
+    200
+    200
+    HARD
+    John Doe
+    1985-05-15
+    185
+    PASS123456
+    10
+    20
+    30
+    Main Campus
+    add
+     LabWork
+     100
+     150
+     200
+     200
+     HARD
+     John Doe
+     1985-05-15
+     185
+     PASS123456
+     10
+     20
+     30
+     Main Campus
+     add
+      LabWork
+      100
+      150
+      200
+      200
+      HARD
+      John Doe
+      1985-05-15
+      185
+      PASS123456
+      10
+      20
+      30
+      Main Campus
+      add
+       LabWork
+       100
+       150
+       200
+       200
+       HARD
+       John Doe
+       1985-05-15
+       185
+       PASS123456
+       10
+       20
+       30
+       Main Campus
+       add
+        LabWork
+        100
+        150
+        200
+        200
+        HARD
+        John Doe
+        1985-05-15
+        185
+        PASS123456
+        10
+        20
+        30
+        Main Campus
+        add
+         LabWork
+         100
+         150
+         200
+         200
+         HARD
+         John Doe
+         1985-05-15
+         185
+         PASS123456
+         10
+         20
+         30
+         Main Campus
+         add
+          LabWork
+          100
+          150
+          200
+          200
+          HARD
+          John Doe
+          1985-05-15
+          185
+          PASS123456
+          10
+          20
+          30
+          Main Campus
+          show
